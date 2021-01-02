@@ -97,7 +97,7 @@ layouts = [
     # layout.Bsp(),
     # layout.Columns(),
     # layout.Matrix(),
-    layout.MonadTall(border_focus="#2da9c2"),
+    layout.MonadTall(border_focus="#2da9c2", margin=4),
     # layout.MonadWide(),
     # layout.RatioTile(),
     # layout.Tile(),
