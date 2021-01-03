@@ -91,9 +91,10 @@ for i in groups:
     ])
 
 layouts = [
-    layout.MonadTall(border_focus="#2da9c2",  margin=4),
+    layout.Stack(num_stacks=2, border_focus="#2da9c2", margin=4),
     layout.Max(),
-    layout.Stack(num_stacks=2),
+    layout.MonadTall(border_focus="#2da9c2", margin=4),
+    layout.TreeTab(),
     # Try more layouts by unleashing below layouts.
     # layout.Bsp(),
     # layout.Columns(),
@@ -101,7 +102,6 @@ layouts = [
     # layout.MonadWide(),
     # layout.RatioTile(),
     # layout.Tile(),
-    layout.TreeTab(),
     # layout.VerticalTile(),
     # layout.Zoomy(),
 ]
